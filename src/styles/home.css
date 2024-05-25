@@ -1,0 +1,11 @@
+main img {
+    width: 50%;
+    height: 50%; 
+    border: solid black 10px;
+    border-radius: 50%; 
+}
+
+.details {
+    margin: 24px 4px;
+    padding: 0 20px;
+}
