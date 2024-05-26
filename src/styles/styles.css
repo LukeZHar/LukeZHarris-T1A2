@@ -4,6 +4,11 @@
     --secondary-color: #FFFFFF;
 }
 
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* This sections controls the whole body layout*/
 body {
     margin: 0;
     min-height: 100dvh;
@@ -12,13 +17,15 @@ body {
     justify-content: space-between;
 }
 
+/* This section edits how the header looks and sits */
 header {
     background-color: var(--primary-background);
     text-align: center;
-    padding: 16px;
-    
+    padding: 12px;
+    margin-bottom: 4px;    
 }
 
+/* These sections edit the small image at the top */
 .logo a img {
     height: 60px;
     border: #FFFFFF;
@@ -29,13 +36,13 @@ header {
     transform: scale(1.2);
 }
 
-
+/* This section edits the "Luke Harris" Text */
 .name {
     font-size: 32px;
     color: var(--primary-fontcolor);
 }
 
-
+/* These sections edit the nav bar */
 #nav-bar {
     width: 100%;
     display: flex;
@@ -52,9 +59,10 @@ header {
 }
 
 #nav-bar a:hover {
-    background-color: lightgrey;
-    transform: scale(1.2);
+    background-color: whitesmoke;
+    transform: scale(1.1);
 }
+
 
 /* Screens 481px plus will change the layout for tablets*/
 @media screen and (min-width: 481px) {
@@ -65,6 +73,11 @@ header {
 
     }
 
+    .logo a img {
+        height: 80px;
+        align-items: start;
+    }
+
     .name {
         margin-bottom: 0;
     }
@@ -72,18 +85,29 @@ header {
     #nav-bar {
         width: 50%;
         font-size: 25px;
+        background-color: var(--secondary-color);
+        border-radius: 20px;
+    }
+
+
+    .socials {
+        width: 50%;
+    }
+
+    .info {
+        text-align: end;
+        padding-right: 5%;
     }
 
 }
 
-/* Screens plus will change for desktop */
+/* Screens 769px plus will change the layout for desktop */
 @media screen and (min-width: 769px) {
     
     
 }
 
-
-
+/* Edits the layout of the footer */
 footer {
     background-color: var(--primary-background);
     text-align: center;
@@ -91,7 +115,34 @@ footer {
     color: var(--secondary-color);
 }
 
-#back {
+/* Edits the links to social accounts */
+.socials {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
     
+}
+
+.socials a i {
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+/* Edits the address and number */
+.info {
+    color: var(--primary-fontcolor);
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+/* Edits the copyright information*/
+footer h4 {
+    font-size: 12px;
+}
+
+/* Edits the back to top link */
+#back {
     color: var(--primary-fontcolor);
 }
