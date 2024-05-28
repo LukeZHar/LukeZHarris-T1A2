@@ -1,0 +1,28 @@
+
+.thanks {
+    text-align: center;
+    animation-name: colored-text;
+    animation-duration: 6s;
+}
+
+@keyframes colored-text {
+    0% {
+        color: red;
+    }
+    25% {
+        color: orange;
+        transform: scale(1.4);
+    }
+    50% {
+        color: green;
+        transform: scale(1);
+    }
+    75% {
+        color: blue;
+        transform: scale(1.4);
+    }
+    100% {
+        color: purple;
+    }
+}
+

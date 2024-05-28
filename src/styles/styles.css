@@ -6,6 +6,7 @@
 
 * {
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 /* This sections controls the whole body layout*/
@@ -62,6 +63,12 @@ header {
     background-color: whitesmoke;
     transform: scale(1.1);
 }
+
+/* #background-img {
+    background-image: url(../images/background-image.jpg) ;
+    background-position: center;
+    background-size: cover;    
+} */
 
 
 /* Screens 481px plus will change the layout for tablets*/

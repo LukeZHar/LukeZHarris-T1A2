@@ -5,6 +5,7 @@ main {
     margin-bottom: 20px;
 }
 
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -38,16 +39,18 @@ main {
 
 .bttn {
     text-align: center;
-
+    
 }
 
 #submit {
     height: 40px;
     background-color: lightgray;
-    border: none;
-    border-radius: 4px;
+    border: bold black 10px;
+    border-radius: 6px;
     min-width: 120px;
     font-size: 20px;
+    text-decoration: none;
+    color: var(--primary-background);
 }
 
 #submit:hover {
