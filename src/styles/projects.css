@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+article {
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+    border: solid black 5px;
+    border-radius: 100px;
+}
+
+
+.project-image {
+    width: 400px;
+    border-radius: 0px;    
+}
+
+.project {
+    border: solid black 5px;
+    
+    background-color: lightgray;
+    max-width: 390px;
+}

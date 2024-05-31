@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+article {
+    background-color: var(--secondary-color);
+    border: solid black 5px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+    padding-right: 2px;    
+}
+
+article img {
+    padding-right: 5px;
+    width: 400px;
+    height: 300px;    
+}
+
+@media screen and (min-width: 481px) {
+    main {
+        margin: 0px 30px;
+    }
+    article {
+        border: solid black 5px;
+        padding: 10px 10px;
+    }
+
+    article img {
+        width: 700px;
+        height: 500px;
+        padding-right: 5px;
+    }
+}

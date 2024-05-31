@@ -2,11 +2,8 @@
     --primary-background: #262626;
     --primary-fontcolor: #DAFFFD;
     --secondary-color: #FFFFFF;
-}
-
-* {
     font-family: 'Times New Roman', Times, serif;
-    
+    box-sizing: border-box;
 }
 
 /* This sections controls the whole body layout*/
@@ -16,6 +13,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(../images/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
 }
 
 /* This section edits how the header looks and sits */
@@ -28,9 +30,10 @@ header {
 
 /* These sections edit the small image at the top */
 .logo a img {
-    height: 60px;
+    height: 100px;
     border: #FFFFFF;
-    border-radius: 50%;
+    border-radius: 40%;
+    margin-bottom: 20px;
 }
 
 .logo a img:hover {
@@ -64,29 +67,18 @@ header {
     transform: scale(1.1);
 }
 
-/* #background-img {
-    background-image: url(../images/background-image.jpg) ;
-    background-position: center;
-    background-size: cover;    
-} */
-
-
 /* Screens 481px plus will change the layout for tablets*/
 @media screen and (min-width: 481px) {
     header {
         display: flex;
         align-items: flex-end;
         justify-content: space-around;
-
+        flex-direction: row-reverse;
     }
 
-    .logo a img {
-        height: 80px;
-        align-items: start;
-    }
-
-    .name {
-        margin-bottom: 0;
+    .logo a img{
+        height: 100px;
+    
     }
 
     #nav-bar {
@@ -95,7 +87,6 @@ header {
         background-color: var(--secondary-color);
         border-radius: 20px;
     }
-
 
     .socials {
         width: 50%;

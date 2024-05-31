@@ -108,3 +108,7 @@ R7 - Creates a VERY DETAILED list of components that will be used. A COMPREHENSI
 
 [Link to Trello](https://trello.com)
 
+Background image reference: Photo by Alexandru Acea on Unsplash
+
+Blog image reference: Photo by Pankaj Patel on Unsplash
+  
