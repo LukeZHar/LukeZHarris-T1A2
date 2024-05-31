@@ -99,12 +99,6 @@ header {
 
 }
 
-/* Screens 769px plus will change the layout for desktop */
-@media screen and (min-width: 769px) {
-    
-    
-}
-
 /* Edits the layout of the footer */
 footer {
     background-color: var(--primary-background);
