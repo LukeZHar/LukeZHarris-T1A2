@@ -7,13 +7,26 @@ main {
 
 
 article {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-background);
+    color: var(--primary-fontcolor);
     border: solid black 1px;
     border-radius: 6px;
     overflow: hidden;
     text-align: center;
-    margin: 20px 0;
-    
+    margin: 20px 5px;
+}
+
+h3 {
+    color: var(--secondary-color);
+}
+
+.blog-post {
+    border: solid black 5px;
+}
+
+.blog-description {
+    max-width: 390px;
+    text-align: center;
 }
 
 #more {
@@ -33,10 +46,4 @@ article {
 
 .blog-image {
     width: 400px;
-}
-
-.blog-description {
-    border: solid black 5px;
-    background-color: lightgray;
-    max-width: 390px;
 }

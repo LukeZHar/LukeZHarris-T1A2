@@ -3,27 +3,23 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-
 }
 
 article {
-    background-color: var(--secondary-color);
     overflow: hidden;
     text-align: center;
-    margin: 20px 0;
-    border: solid black 5px;
-    border-radius: 100px;
+    margin: 20px 10px;
 }
 
 
 .project-image {
     width: 400px;
-    border-radius: 0px;    
 }
 
 .project {
     border: solid black 5px;
+    border-radius: 50%;
+    background-color: var(--primary-background);
+    color: var(--secondary-color);
     
-    background-color: lightgray;
-    max-width: 390px;
 }

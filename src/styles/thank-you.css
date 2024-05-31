@@ -7,22 +7,22 @@
 
 @keyframes colored-text {
     0% {
-        color: red;
+        color: darkred;
     }
     25% {
-        color: orange;
+        color: darkorange;
         transform: scale(1.4);
     }
     50% {
-        color: green;
+        color: darkgreen;
         transform: scale(1);
     }
     75% {
-        color: blue;
+        color: darkblue;
         transform: scale(1.4);
     }
     100% {
-        color: purple;
+        color: darkmagenta;
     }
 }
 

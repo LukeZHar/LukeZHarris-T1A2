@@ -24,6 +24,19 @@ main img {
     color: var(--primary-fontcolor);
 }
 
+.container {
+    display: inline-block;
+}
+
+.text {
+    color: var(--secondary-color);
+    border-right: solid 2px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(22), cursor .4s step-end infinite alternate;
+}
+
 
 /* Screens 481px plus will change the layout for tablets*/
 @media screen and (min-width: 481px) {
@@ -34,9 +47,9 @@ main img {
     }
       
     main img {
-        width: 270px;
-        height: 350px;
-        margin: 10px;
+        width: 250px;
+        height: 320px;
+        margin: 10px 50px;
     }
 
     .home-text {
@@ -53,4 +66,16 @@ main img {
     100% {
         opacity: 100%;
     }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    } 
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }    
 }

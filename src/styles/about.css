@@ -29,6 +29,7 @@ main img {
 
 h2 {
     color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 h3 {
@@ -89,3 +90,4 @@ i {
         margin-right: 50px;
     }
 }
+

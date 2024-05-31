@@ -3,28 +3,35 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-
 }
 
 article {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-background);
+    color: var(--primary-fontcolor);
     border: solid black 5px;
     border-radius: 16px;
     overflow: hidden;
     text-align: center;
-    margin: 20px 0;
-    padding-right: 2px;    
+    margin: 20px 20px;
+        
+}
+
+h1 {
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 article img {
-    padding-right: 5px;
-    width: 400px;
-    height: 300px;    
+    width: 300px;
+    height: 200px; 
+    align-content: center;
+    justify-content: center;
+
 }
 
 @media screen and (min-width: 481px) {
     main {
-        margin: 0px 30px;
+        margin: 20px 90px;
     }
     article {
         border: solid black 5px;
@@ -34,6 +41,5 @@ article img {
     article img {
         width: 700px;
         height: 500px;
-        padding-right: 5px;
     }
 }
