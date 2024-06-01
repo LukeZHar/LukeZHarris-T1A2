@@ -1,29 +1,53 @@
+main {
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
 /* Thank you text and animation */
 .thanks {
     text-align: center;
     animation-name: colored-text;
     animation-duration: 6s;
+    animation-iteration-count: infinite;
+    background-color: var(--primary-background);
+    border: solid;
+    padding: 20px;
+}
+@media screen and (min-width: 481px) {
+    main {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    main {
+        font-size: 32px;
+    }
 }
 
 /* Creates animation for coloured text and zoom effect */
 @keyframes colored-text {
     0% {
-        color: darkred;
+        color: red;
     }
     25% {
-        color: darkorange;
+        color: orange;
         transform: scale(1.4);
     }
     50% {
-        color: darkgreen;
+        color: green;
         transform: scale(1);
     }
     75% {
-        color: darkblue;
+        color: lightblue;
         transform: scale(1.4);
     }
     100% {
-        color: darkmagenta;
+        color: lightpink;
     }
 }
 

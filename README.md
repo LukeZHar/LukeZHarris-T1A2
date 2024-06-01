@@ -2,7 +2,7 @@
 
 __Written and published by *Luke Harris*__
 
-[Link to my published portfolio website](https://main--lukezharris-t1a2.netlify.app/)  
+[Link to my published portfolio website](https://lukezharris-t1a2.netlify.app/)  
 
 [Link to my github repository](https://github.com/LukeZHar/LukeZHarris-T1A2)
 
