@@ -1,12 +1,17 @@
+/* The root i can access for colors */
 :root {
     --primary-background: #262626;
     --primary-fontcolor: #DAFFFD;
     --secondary-color: #FFFFFF;
+    
+}
+
+* {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
-/* This sections controls the whole body layout*/
+/* This sections controls the body layout and background image*/
 body {
     margin: 0;
     min-height: 100dvh;
@@ -20,7 +25,7 @@ body {
     backdrop-filter: blur(5px);
 }
 
-/* This section edits how the header looks and sits */
+/* Header background and alignment */
 header {
     background-color: var(--primary-background);
     text-align: center;
@@ -28,7 +33,7 @@ header {
     margin-bottom: 4px;    
 }
 
-/* These sections edit the small image at the top */
+/* Sections for the logo at the top */
 .logo a img {
     height: 100px;
     border: #FFFFFF;
@@ -38,12 +43,6 @@ header {
 
 .logo a img:hover {
     transform: scale(1.2);
-}
-
-/* This section edits the "Luke Harris" Text */
-.name {
-    font-size: 32px;
-    color: var(--primary-fontcolor);
 }
 
 /* These sections edit the nav bar */

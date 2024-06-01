@@ -1,3 +1,4 @@
+/* Main section */
 main {
     display: flex;
     text-align: center;
@@ -8,17 +9,18 @@ main {
     
 }
 
+/* Image of me on the about page */
 main img {
     width: 50%;
     height: 50%; 
     border: solid black 5px;
     border-radius: 50%; 
     border-top-left-radius: 20px;
-    
+    margin-top: 20px;
 }
 
-
-.home-text {
+/* The Text block edits background, color and layout */
+.about-text {
     text-align: start;
     margin: 24px 4px;
     padding: 7px 20px;
@@ -27,6 +29,7 @@ main img {
     color: var(--primary-fontcolor);
 }
 
+/* All the headings and icons */
 h2 {
     color: var(--secondary-color);
     text-decoration: underline;
@@ -45,6 +48,7 @@ i {
     font-size: 25px;
 }
 
+/* Resume button, text and link */
 #resume {
     height: 40px;
     background-color: lightgray;
@@ -68,7 +72,7 @@ i {
         text-align: start;
         font-size: 17px;
     }
-    .home-text {
+    .about-text {
         padding-left: 50px;
         margin-left: 50px;
         border: solid black;
@@ -84,9 +88,10 @@ i {
     }
 }
 
-@media screen and (min-width: 769px) {
+/* Screens 1080px plus will change the layout for desktop */
+@media screen and (min-width: 1080px) {
     
-    .home-text {
+    .about-text {
         margin-right: 50px;
     }
 }

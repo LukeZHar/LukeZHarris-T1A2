@@ -1,3 +1,4 @@
+/* Main section */
 main {
     display: flex;
     text-align: center;
@@ -6,15 +7,19 @@ main {
     padding-right: 10px;
 }
 
+/* Image of me on the main page */
 main img {
     width: 50%;
     height: 50%; 
     border: solid black 5px;
     border-radius: 50%; 
+    border-top-left-radius: 20px;
     animation-name: fade-in;
     animation-duration: 4s;
+    margin: 20px 0;
 }
 
+/* The Text block edits background, color and layout */
 .home-text {
     margin-bottom: 20px;
     animation: fade-in;
@@ -24,10 +29,12 @@ main img {
     color: var(--primary-fontcolor);
 }
 
+/* The Hello, I'm luke harris. Sets it so its just the length of text */
 .container {
     display: inline-block;
 }
 
+/* Controls the style of text and adds the animation */
 .text {
     color: var(--secondary-color);
     border-right: solid 2px;
@@ -59,7 +66,7 @@ main img {
     }
 }
 
-/* Screens 769px plus will change the layout for desktop */
+/* Screens 1080px plus will change the layout for desktop */
 @media screen and (min-width: 1080px) {
     main {
         display: flex;
@@ -75,7 +82,8 @@ main img {
     }
     
 }
-
+/* Animation section which are attached above */
+/* creates the fade in effect */
 @keyframes fade-in {
     0% {
         opacity: 0%;
@@ -85,12 +93,13 @@ main img {
     }
 }
 
+/* Creates the blinking effect */
 @keyframes cursor {
     50% {
         border-color: transparent;
     } 
 }
-
+/* Creates the typing effect */
 @keyframes typing {
     from {
         width: 0

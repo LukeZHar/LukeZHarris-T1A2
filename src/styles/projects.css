@@ -1,3 +1,4 @@
+/* Main section */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -5,21 +6,23 @@ main {
     gap: 24px;
 }
 
+/* Project block for title and image */
 article {
     overflow: hidden;
     text-align: center;
     margin: 20px 10px;
 }
 
-
-.project-image {
-    width: 400px;
-}
-
+/* Border and background for project */
 .project {
     border: solid black 5px;
     border-radius: 50%;
     background-color: var(--primary-background);
     color: var(--secondary-color);
-    
 }
+
+/* Project image */
+.project-image {
+    width: 400px;
+}
+

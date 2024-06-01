@@ -1,3 +1,4 @@
+/* Main section */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +6,7 @@ main {
     gap: 24px;
 }
 
+/* Blog page section for heading, text and image */
 article {
     background-color: var(--primary-background);
     color: var(--primary-fontcolor);
@@ -29,6 +31,7 @@ article img {
 
 }
 
+/* Screens 481px plus will change the layout for tablets*/
 @media screen and (min-width: 481px) {
     main {
         margin: 20px 90px;

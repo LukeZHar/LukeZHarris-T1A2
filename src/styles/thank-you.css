@@ -1,10 +1,11 @@
-
+/* Thank you text and animation */
 .thanks {
     text-align: center;
     animation-name: colored-text;
     animation-duration: 6s;
 }
 
+/* Creates animation for coloured text and zoom effect */
 @keyframes colored-text {
     0% {
         color: darkred;
