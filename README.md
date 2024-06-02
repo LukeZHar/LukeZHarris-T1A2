@@ -38,16 +38,19 @@ The whole website is Styled through the use of CSS. The styling code is linked t
 
 * The Display used was Flexbox to keep my styling the same across all pages.
 * The use of @import for bringing in a font
-![import screenshot](./docs/Features/import.png)
+![import screenshot](./docs/Features/import.png)  
 * The use of @media to change the styling depending on the use of phone, ipad and desktop, started with mobile first.  
 ![media screenshots](./docs/Features/Media%20screen%20mid%20range.png)  
 ![media screenshots](./docs/Features/media%20screen%20large.png)
 * The use of @keyframes for making animations
 ![keyframes screenshot](./docs/Features/keyframes.png)
 * The use of :root for storing my different colors that i can access through var()
+![Root code](./docs/Features/Root%20content.png)
 * The use of (*) for storing my box-sizing and font
+![Font and box-sizing](./docs/Features/starcode.png)
 * (#) linking to my id="" and (.) linking to my class=""
-* The use of :hover to change the style when hovering ontop of the element
+* The use of :hover to change the style when hovering ontop of the element   
+![Hover code](./docs/Features/logo%20hover%20code.png) 
 
 ### Components
 #### Header
@@ -57,89 +60,92 @@ Mobile view
 ![Header for moble](./docs/Layout/Header%20mobile.png)  
 
 Desktop view  
-![Header for Desktop](./docs/Layout/Header%20big.png)
+![Header for Desktop](./docs/Layout/Header%20big.png)  
 
-* #### Navbar
-![Navbar](./docs/Features/Navbar.png) 
+* #### Navbar  
+![Navbar](./docs/Features/Navbar.png)  
 
-* #### Navbar link code
-![navbar link code](./docs/Features/Navbar%20link%20code.png)
+* #### Navbar link code  
+![navbar link code](./docs/Features/Navbar%20link%20code.png)  
 
-* #### Navbar hover
-![navbar hover](./docs/Features/navbar%20hover.png)
+* #### Navbar hover  
+![navbar hover](./docs/Features/navbar%20hover.png)  
 
-* #### Navbar hover code
-![navbar hover code](./docs/Features/navbar%20hover%20code.png)
+* #### Navbar hover code  
+![navbar hover code](./docs/Features/navbar%20hover%20code.png)  
 
-* #### Logo
-![logo](./docs/Features/linked%20logo.png)
+* #### Logo  
+![logo](./docs/Features/linked%20logo.png)  
 
-* #### Logo link code
-![logo link code](./docs/Features/Logo%20link%20code.png)
+* #### Logo link code  
+![logo link code](./docs/Features/Logo%20link%20code.png)  
 
-* #### Logo hover
-![logo hover](./docs/Features/Logo%20hover.png)
+* #### Logo hover  
+![logo hover](./docs/Features/Logo%20hover.png)  
 
-* #### Logo hover code
-![logo hover code](./docs/Features/logo%20hover%20code.png)
+* #### Logo hover code  
+![logo hover code](./docs/Features/logo%20hover%20code.png)  
 
-#### Body
+#### Body  
 A small snippit of the background image that will be used across the whole site and some flexbox code  
-![Background image](./docs/Features/Background%20image.png)
+![Background image](./docs/Features/Background%20image.png)  
 
-* #### Background image and flexbox code
-![Background image and flex code](./docs/Features/background%20image%20and%20flexbox.png)
+* #### Background image and flexbox code  
+![Background image and flex code](./docs/Features/background%20image%20and%20flexbox.png)  
 
-#### Footer
-Is the bottom part of the page that users can find the social links, address/mobile, copyright info and back to top shortcut
+* #### Flexwrap code for blog and project's  
+![Flexwrap code](./docs/Features/Flex%20wrap.png)  
+
+#### Footer  
+Is the bottom part of the page that users can find the social links, address/mobile, copyright info and back to top shortcut  
 
 Mobile view  
-![footer mobile view](./docs/Layout/Footer%20mobile.png)
+![footer mobile view](./docs/Layout/Footer%20mobile.png)  
 
 Destop view  
-![footer desktop view](./docs/Layout/Footer%20big.png)
+![footer desktop view](./docs/Layout/Footer%20big.png)  
 
-* #### Icons
-![icon screenshot](./docs/Features/Linked%20icons.png)
+* #### Icons  
+![icon screenshot](./docs/Features/Linked%20icons.png)  
 
-* #### Icon link code
-![icon link code](./docs/Features/Logo%20link%20code.png)
+* #### Icon link code  
+![icon link code](./docs/Features/Logo%20link%20code.png)  
 
-* #### Icon hover
-![icon hover](./docs/Features/linked%20icons%20hover.png)
+* #### Icon hover  
+![icon hover](./docs/Features/linked%20icons%20hover.png)  
 
-* #### Icon hover code
-![icon hover code](./docs/Features/linked%20icons%20hover%20code.png)
+* #### Icon hover code  
+![icon hover code](./docs/Features/linked%20icons%20hover%20code.png)  
 
-* #### Back to top
-![back to top](./docs/Features/Back%20to%20top.png)
+* #### Back to top  
+![back to top](./docs/Features/Back%20to%20top.png)  
 
-* #### Back to top code
-![back to top code](./docs/Features/Back%20to%20top%20code.png)
-
-#### Home
+* #### Back to top code  
+![back to top code](./docs/Features/Back%20to%20top%20code.png)  
+ 
+#### Home  
 The main page that visiters will start at, which will have a fade in and typing animation to catch their attention, with a picture of me and a brief paragraph about me and my current studies.  
 
 Home page mobile view  
-![home page mobile screenshot](./docs/Layout/home%20mobile.png)
+![home page mobile screenshot](./docs/Layout/home%20mobile.png)  
 
-Home page Desktop view  
-![home page mobile screenshot](./docs/Layout/home%20big.png)
+Home page Desktop view   
+![home page mobile screenshot](./docs/Layout/home%20big.png)  
 
-* #### Homepage Fade-in Animation
+* #### Homepage Fade-in Animation  
 ![Fade-in animation half fade](./docs/Features/Fade-in%20effect.png)  
-![Fade-in animation end](./docs/Features/fade-in%20effect%20end.png)
+![Fade-in animation end](./docs/Features/fade-in%20effect%20end.png)  
 
-* #### Homepage Typing Animation
-![Typing animation halfway](./docs/Features/Typewriter%20effect.png)  
-![Typing animtion end](./docs/Features/Typewriter%20effect%20complete.png)
+* #### Homepage Typing Animation  
+![Typing animation halfway](./docs/Features/Typewriter%20effect.png)   
+![Typing animtion end](./docs/Features/Typewriter%20effect%20complete.png)  
 
-* #### Homepage Animation code
-![Fade-in animation code](./docs/Features/Animation%20fade-in.png)
-![Typerwriter animation code](./docs/Features/Animation%20typing.png)
-![Animation code](./docs/Features/Fade-in%20and%20typing%20effect%20link%20code.png)
+* #### Homepage Animation code  
+![Fade-in animation code](./docs/Features/Animation%20fade-in.png)  
+![Typerwriter animation code](./docs/Features/Animation%20typing.png)  
+![Animation code](./docs/Features/Fade-in%20and%20typing%20effect%20link%20code.png)  
 
-#### About
+#### About  
 This page will have a picture of me along side an about me section that will have a brief description, Interests, Skills, Tools, Certificates, Work history and my Resume. I added some icons, because I personaly think it attracts attention to the lists.  
 
 About page mobile view  
@@ -148,27 +154,86 @@ About page mobile view
 About page Desktop view  
 ![About page Desktop view](./docs/Layout/about%20page%20big.png)  
 
-* #### Resume button
-![Resume button](./docs/Features/Resume%20button.png) 
+* #### Resume button  
+![Resume button](./docs/Features/Resume%20button.png)  
 
-* #### Resume button hover
-![Resume button hover](./docs/Features/Resume%20hover.png)
+* #### Resume button hover  
+![Resume button hover](./docs/Features/Resume%20hover.png)  
 
-* #### Resume button hover code
-![Resume hover code](./docs/Features/Resume%20hover%20code.png)
+* #### Resume button hover code  
+![Resume hover code](./docs/Features/Resume%20hover%20code.png)  
 
-#### Blog
-This page will have 5 blogs with a different heading on each but lorem for the description, a read more button and 1 image.   
-![]()  
-![]()  
-![]()  
-![]()  
-![]()  
+#### Blog  
+This page will have 5 blogs with a different heading on each but lorem for the description, a read more button and 1 image. I added a hover effect to the button so visitors can see where they are clicking and catches their attention.  
 
-* #### Blog-page
-#### Projects
-#### Contact
-* #### Thank you 
+Blog page mobile view  
+![Blog page mobile view](./docs/Layout/blog%20mobile.png)   
+
+Blog page desktop view  
+![Blog page Desktop view](./docs/Layout/Blog%20big.png)  
+
+* #### Read more button  
+![Read more button](./docs/Features/read-more%20button.png)  
+
+* #### Read more button hover  
+![Read more button hover](./docs/Features/read-more%20hover.png)  
+
+* #### Read more button hover code  
+![Read more button hover code](./docs/Features/Read-more%20hover%20code.png)  
+
+* #### Blog-page  
+    Once read more is clicked it will take you to this page which is just a basic blog page with a background, text and image.
+
+    Blog post mobile view  
+    ![Blog post mobile view](./docs/Layout/blog-page%20mobile.png)  
+
+    Blog post desktop view  
+    ![Blog post Desktop view](./docs/Layout/blog-post%20big.png)  
+
+#### Project's  
+This page will have a circular look to the projects outlined with no links just 1 image and a title.  
+
+Project's page Mobile view  
+![Project's page mobile view](./docs/Layout/projects%20mobile.png)  
+
+Project's page Desktop view   
+![Project's page Desktop view](./docs/Layout/Projects%20big.png)   
+
+#### Contact    
+This page will have my email and a form visiters can fill out to get into contact with me, and a submit button that links to a thank you page. The submit page has a hover effect attached.  
+
+Contact page mobile view  
+![Contact page mobile view](./docs/Layout/Contact%20mobile.png)  
+
+Contact page Desktop view  
+![Contact page Desktop view](./docs/Layout/contact%20big.png)  
+
+* #### Submit button  
+![Submit button](./docs/Features/submit%20button.png)  
+
+* #### Submit button hover  
+![Submit button hover](./docs/Features/submit%20hover.png)  
+
+* #### Submit button hover code  
+![Submit button hover code](./docs/Features/Submit%20hover%20code.png)  
+
+* #### Thank you  
+    This page will have an animated colourful thank you text with a colorful border and scale up and down. Animation catches the eye.  
+
+    Thank you small view  
+    ![Thank you small animation](./docs/Layout/thank%20you%20small.png)  
+
+    Thank you mid view   
+    ![Thank you mid animation](./docs/Layout/Thank%20you%20mid.png)  
+
+    Thank you large view  
+    ![Thank you large animation](./docs/Layout/Thank%20you%20larger.png)  
+
+    * #### Thank you animation code   
+    ![Linked thank you code](./docs/Features/Linked%20animation%20colorful-text.png)  
+    ![Thank you animation code](./docs/Features/Animation%20colourful-text.png)   
+
+
 # Screenshots
 ## Sitemap
 ![A screenshot of my sitemap from draw.io](./docs/Sitemap/Sitemap%20for%20T1A2.png)
