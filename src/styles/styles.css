@@ -1,3 +1,6 @@
+/* Link to comic Neue font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 /* The root i can access for colors */
 :root {
     --primary-background: #262626;
@@ -7,8 +10,8 @@
 }
 
 * {
-    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    font-family: 'Comic Neue', 'Times New Roman', Times, serif;
 }
 
 /* This sections controls the body layout and background image*/
@@ -117,6 +120,11 @@ footer {
 .socials a i {
     font-size: 24px;
     color: var(--secondary-color);
+}
+
+.socials a i:hover {
+    transform: scale(1.2);
+    color: lightgrey;
 }
 
 /* Edits the address and number */

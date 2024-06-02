@@ -1,3 +1,4 @@
+/* Main section i used to change the font size and display */
 main {
     font-size: 20px;
 }
@@ -17,12 +18,15 @@ section {
     border: solid;
     padding: 20px;
 }
+
+/* Changes the font size for 481px above */
 @media screen and (min-width: 481px) {
     main {
         font-size: 30px;
     }
 }
 
+/* Changes the font size for 1080px above */
 @media screen and (min-width: 1080px) {
     main {
         font-size: 32px;

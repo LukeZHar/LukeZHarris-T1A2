@@ -51,7 +51,8 @@ i {
 /* Resume button, text and link */
 #resume {
     height: 40px;
-    background-color: lightgray;
+    background-color: var(--secondary-color);
+    border: solid black 2px;
     border-radius: 6px;
     min-width: 80px;
     font-size: 15px;
@@ -62,6 +63,7 @@ i {
 
 #resume:hover {
     cursor: pointer;
+    background-color: grey;
     transform: scale(1.1);
 }
 

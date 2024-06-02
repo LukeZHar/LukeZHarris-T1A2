@@ -46,3 +46,12 @@ article img {
         height: 500px;
     }
 }
+
+/*  Sets the width at 1080px plus */
+@media screen and (min-width:1080px) {
+
+    article {
+        width: 800px
+    }
+    
+}

@@ -34,11 +34,13 @@ strong {
     
 }
 
+/* form name, email, subject and reason */
 .form-group label {
     font-size: 18px
 
 }
 
+/* form input box */
 .form-input {
     border: 1px solid black;
     outline: none;
@@ -59,6 +61,7 @@ strong {
     box-shadow: 3px 3px 10px 2px #DAFFFD;
 }
 
+/* form button */
 .bttn {
     text-align: center;
     
@@ -66,8 +69,8 @@ strong {
 
 #submit {
     height: 40px;
-    background-color: lightgray;
-    border: bold black 10px;
+    background-color: var(--secondary-color);
+    border: solid black 2px;
     border-radius: 6px;
     min-width: 120px;
     font-size: 20px;
@@ -78,7 +81,7 @@ strong {
 #submit:hover {
     cursor: pointer;
     background-color: grey;
-
+    transform: scale(1.1);
 }
 
 /* Screens 481px plus will change the layout for tablets*/
